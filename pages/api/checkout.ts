@@ -5,7 +5,7 @@ import Stripe from 'stripe'
 import {STRIPE_API_KEY} from '../../config'
 
 const stripe = new Stripe( STRIPE_API_KEY, {
-  apiVersion: '2022-08-01',
+  apiVersion: '2022-11-15',
 })
 
 type Data = {
