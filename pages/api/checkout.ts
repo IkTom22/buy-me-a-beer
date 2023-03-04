@@ -1,4 +1,4 @@
-import { DONATION_IN_CENTS } from '@/config';
+import { DONATION_IN_CENTS } from '../../config';
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import Stripe from 'stripe'
