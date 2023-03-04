@@ -6,7 +6,7 @@ import { STRIPE_API_KEY, STRIPE_WEBHOOK_SECRET } from '../../config'
 import {buffer} from 'micro'
 
 const stripe = new Stripe( STRIPE_API_KEY, {
-  apiVersion: '2022-08-01',
+  apiVersion: '2022-11-15',
 })
 
 async function insertToAirTable( { name, message, amount }: {
